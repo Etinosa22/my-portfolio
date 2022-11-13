@@ -1,10 +1,10 @@
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav-list');
-const form = document.querySelector('form')
 
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('show');
     nav.classList.toggle('show');
+   
 });
 
 const li = document.querySelectorAll(".links")
