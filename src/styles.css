@@ -171,8 +171,7 @@ button {
   overflow: hidden;
   background:
     linear-gradient(90deg, var(--hero-overlay) 0%, var(--hero-overlay-mid) 45%, var(--hero-overlay-light) 100%),
-    linear-gradient(0deg, var(--bg) 0%, transparent 40%),
-    url('/img/bg.jpeg') center 48% / cover;
+    linear-gradient(0deg, var(--bg) 0%, transparent 40%);
 }
 
 .hero::after {

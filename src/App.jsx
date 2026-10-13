@@ -21,7 +21,7 @@ const featuredProjects = [
     description:
       'A docket management system built for the Lagos State Judiciary to support the organization of court case information.',
     link: 'https://lagosjudiciarydocket.ng/login',
-    image: '/https://res.cloudinary.com/do2t27qdc/image/upload/v1791899335/PORTFOLIO%20IMAGES/Screenshot_2026-10-13_102435_n5vchy.png',
+    image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1791899335/PORTFOLIO%20IMAGES/Screenshot_2026-10-13_102435_n5vchy.png',
     imageAlt: 'Dashboard of the Lagos State Judiciary Docket System',
   },
   {
@@ -144,8 +144,8 @@ function App() {
 
       <main>
         <header className="hero" id="home">
-          <div className="hero-orbit orbit-one" />
-          <div className="hero-orbit orbit-two" />
+          {/* <div className="hero-orbit orbit-one" />
+          <div className="hero-orbit orbit-two" /> */}
           <div className="hero-content page-width">
             <p className="eyebrow"><span className="status-dot" /> Available for opportunities</p>
             <h1>
@@ -165,7 +165,7 @@ function App() {
           <div className="section-label"><span>01</span> / A little about me</div>
           <div className="about-layout">
             <div className="portrait-wrap">
-              <img src="https://res.cloudinary.com/do2t27qdc/image/upload/v1667854351/PORTFOLIO%20IMAGES/about_inagah.jpg" alt="Etinosa Ekhator" />
+              <img src="https://res.cloudinary.com/do2t27qdc/image/upload/v1791900423/PORTFOLIO%20IMAGES/WhatsApp_Image_2026-10-01_at_20.06.34_tg7kqv.jpg" alt="Etinosa Ekhator" />
               <span className="portrait-caption">Based in Nigeria</span>
             </div>
             <div className="about-copy">
