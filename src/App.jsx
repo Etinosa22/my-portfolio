@@ -52,7 +52,7 @@ const featuredProjects = [
     name: 'LAMATA',
     fullName: 'Transport Asset Management (TAM) System',
     description:
-      'A Transport Asset Management system for LAMATA, live and hosted on premises.',
+      'A Transport Asset Management system for LAMATA.',
     status: 'Live · On-premises',
     image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1791907061/PORTFOLIO%20IMAGES/Lamata_twgyyi.jpg',
     imageAlt: 'LAMATA Transport Asset Management system',
