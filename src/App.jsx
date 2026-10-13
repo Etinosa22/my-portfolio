@@ -46,6 +46,17 @@ const featuredProjects = [
     image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1791899340/PORTFOLIO%20IMAGES/Screenshot_2026-10-13_102610_lzkarj.png',
     imageAlt: 'Homepage of the Lagos State Judiciary Auction House website',
   },
+  {
+    number: '05',
+    category: 'Transport asset management',
+    name: 'LAMATA',
+    fullName: 'Transport Asset Management (TAM) System',
+    description:
+      'A Transport Asset Management system for LAMATA, live and hosted on premises.',
+    status: 'Live · On-premises',
+    image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1791907061/PORTFOLIO%20IMAGES/Lamata_twgyyi.jpg',
+    imageAlt: 'LAMATA Transport Asset Management system',
+  },
 ];
 
 
@@ -144,8 +155,6 @@ function App() {
 
       <main>
         <header className="hero" id="home">
-          {/* <div className="hero-orbit orbit-one" />
-          <div className="hero-orbit orbit-two" /> */}
           <div className="hero-content page-width">
             <p className="eyebrow"><span className="status-dot" /> Available for opportunities</p>
             <h1>
@@ -196,8 +205,8 @@ function App() {
                 <h2>Systems that serve<br />real-world needs.</h2>
               </div>
               <p className="section-intro">
-                Recent work across land management, judicial case management,
-                asset operations, and online auctions.
+                Recent work across land management, transport asset management,
+                judicial case management, asset operations, and online auctions.
               </p>
             </div>
             <div className="featured-grid">
