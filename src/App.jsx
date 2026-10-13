@@ -9,7 +9,7 @@ const featuredProjects = [
     description:
       'A land information management system designed to support the organization and handling of land-related records and processes.',
     status: 'Ongoing',
-    image: '/projects/lims-dashboard.png',
+    image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1791899336/PORTFOLIO%20IMAGES/Screenshot_2026-10-13_102312_lvyw7v.png',
     imageAlt: 'Dashboard of the Land Management Information System',
     type: 'LAND',
   },
@@ -21,7 +21,7 @@ const featuredProjects = [
     description:
       'A docket management system built for the Lagos State Judiciary to support the organization of court case information.',
     link: 'https://lagosjudiciarydocket.ng/login',
-    image: '/projects/lagos-judiciary-docket.png',
+    image: '/https://res.cloudinary.com/do2t27qdc/image/upload/v1791899335/PORTFOLIO%20IMAGES/Screenshot_2026-10-13_102435_n5vchy.png',
     imageAlt: 'Dashboard of the Lagos State Judiciary Docket System',
   },
   {
@@ -32,7 +32,7 @@ const featuredProjects = [
     description:
       'A system supporting asset forfeiture workflows and the management of items held in warehouse inventory.',
     status: 'Ongoing',
-    image: '/projects/sheriff-asset-forfeiture.png',
+    image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1791899336/PORTFOLIO%20IMAGES/Screenshot_2026-10-13_102519_wfbuux.png',
     imageAlt: 'Login screen for the Sheriff Asset Forfeiture system',
   },
   {
@@ -43,7 +43,7 @@ const featuredProjects = [
     description:
       'An auction website for browsing and participating in Lagos State Judiciary auctions.',
     status: 'Ongoing',
-    image: '/projects/lagos-judiciary-auction.png',
+    image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1791899340/PORTFOLIO%20IMAGES/Screenshot_2026-10-13_102610_lzkarj.png',
     imageAlt: 'Homepage of the Lagos State Judiciary Auction House website',
   },
 ];
@@ -53,7 +53,7 @@ const pastProjects = [
   {
     name: 'Exchange Rate Calculator',
     description: 'Compare currencies and calculate exchange values.',
-    image: '/img/EXCH-RATE.PNG',
+    image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1667854350/PORTFOLIO%20IMAGES/EXCH-RATE_vrczys.png',
     live: 'https://exchratecalc.netlify.app/',
     source: 'https://github.com/Etinosa22/EXCHANGE-RATE-CALC',
   },
@@ -165,7 +165,7 @@ function App() {
           <div className="section-label"><span>01</span> / A little about me</div>
           <div className="about-layout">
             <div className="portrait-wrap">
-              <img src="/img/about.jpg" alt="Etinosa Ekhator" />
+              <img src="https://res.cloudinary.com/do2t27qdc/image/upload/v1667854351/PORTFOLIO%20IMAGES/about_inagah.jpg" alt="Etinosa Ekhator" />
               <span className="portrait-caption">Based in Nigeria</span>
             </div>
             <div className="about-copy">
