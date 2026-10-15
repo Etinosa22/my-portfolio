@@ -57,6 +57,42 @@ const featuredProjects = [
     image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1791907061/PORTFOLIO%20IMAGES/Lamata_twgyyi.jpg',
     imageAlt: 'LAMATA Transport Asset Management system',
   },
+  {
+    number: '06',
+    category: 'WordPress website',
+    name: 'Giopros',
+    fullName: 'Real Estate & Property Management Website',
+    description:
+      'A WordPress website showcasing Giopros real estate, property management, and tenant services.',
+    link: 'https://giopros.com/',
+    linkLabel: 'Visit website',
+    image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1792084148/PORTFOLIO%20IMAGES/giopro_uiyuhw.png',
+    imageAlt: 'Giopros real estate and property management website',
+  },
+  {
+    number: '07',
+    category: 'WordPress website',
+    name: 'DataLord Technologies',
+    fullName: 'Technology Services Website',
+    description:
+      'A WordPress website presenting DataLord Technologies and its information technology services.',
+    link: 'https://datalordtech.com/',
+    linkLabel: 'Visit website',
+    image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1792084200/PORTFOLIO%20IMAGES/dL_biggx5.png',
+    imageAlt: 'DataLord Technologies website homepage',
+  },
+  {
+    number: '08',
+    category: 'WordPress website',
+    name: 'Geospatial Research',
+    fullName: 'Geospatial Research Ltd. Website',
+    description:
+      'A WordPress website highlighting Geospatial Research Ltd. services, products, and projects.',
+    link: 'https://geospatial.ng/',
+    linkLabel: 'Visit website',
+    image: 'https://res.cloudinary.com/do2t27qdc/image/upload/v1792084183/PORTFOLIO%20IMAGES/grl_qtplap.png',
+    imageAlt: 'Geospatial Research Ltd. website homepage',
+  },
 ];
 
 
@@ -205,8 +241,8 @@ function App() {
                 <h2>Systems that serve<br />real-world needs.</h2>
               </div>
               <p className="section-intro">
-                Recent work across land management, transport asset management,
-                judicial case management, asset operations, and online auctions.
+                Recent work across WordPress websites, land and transport asset
+                management, judicial case management, and online auctions.
               </p>
             </div>
             <div className="featured-grid">
@@ -219,7 +255,7 @@ function App() {
                     <span>{project.category}</span>
                     {project.link ? (
                       <a href={project.link} target="_blank" rel="noreferrer">
-                        View system <Arrow />
+                        {project.linkLabel ?? 'View system'} <Arrow />
                       </a>
                     ) : (
                       <span className="project-status">{project.status}</span>
